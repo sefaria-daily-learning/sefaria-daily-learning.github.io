@@ -5,7 +5,7 @@ export default {
 		adapter: adapter({
 			pages: 'build', // output directory for built pages
 			assets: 'build', // output directory for built assets
-			fallback: undefined // set this if using SPA mode
+			fallback: '404.html' // set this if using SPA mode
 		})
 	}
 
