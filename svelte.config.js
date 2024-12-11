@@ -11,4 +11,5 @@ export default {
 			default: true // prerender all routes by default
 		}
 	}
+
 };
